@@ -1,0 +1,23 @@
+{
+  "name": "prueba-m6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "chai-http": "^5.1.1",
+    "mocha": "^10.7.3",
+    "uuid": "^10.0.0",
+    "uuidv4": "^6.2.13"
+  }
+}
